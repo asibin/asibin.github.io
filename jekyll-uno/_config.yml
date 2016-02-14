@@ -1,0 +1,30 @@
+# Site settings
+title: Sibin Arsenijević
+description: 'Ramblings of a Python, Ansible ethusiast'
+url: 'http://www.sib.in.rs/'
+baseurl: '/'
+google_analytics: 'UA-72514824-1'
+
+author:
+  name: 'Sibin Arsenijević'
+  email: sibin.arsenijevic@gmail.com
+  twitter_username: DrunkDwarf
+  github_username:  asibin
+  linkedin_username:  sibinarsenijevic
+  flickr: sibin
+  instagram: nibis
+
+# Build settings
+destination: ../_site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: pygments
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

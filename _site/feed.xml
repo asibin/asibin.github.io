@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sibin Arsenijević</title>
+    <description>Ramblings of a Python, Ansible ethusiast</description>
+    <link>http://www.sib.in.rs///</link>
+    <atom:link href="http://www.sib.in.rs///feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 14 Feb 2016 21:53:32 +0100</pubDate>
+    <lastBuildDate>Sun, 14 Feb 2016 21:53:32 +0100</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Coming Soon</title>
+        <description>&lt;p&gt;Coming soon!&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 16 Jan 2016 21:25:00 +0100</pubDate>
+        <link>http://www.sib.in.rs///2016/coming-soon/</link>
+        <guid isPermaLink="true">http://www.sib.in.rs///2016/coming-soon/</guid>
+        
+        <category>placeholder</category>
+        
+        
+        <category>placeholder</category>
+        
+      </item>
+    
+  </channel>
+</rss>
