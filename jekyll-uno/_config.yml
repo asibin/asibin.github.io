@@ -27,4 +27,5 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
+#should exclude some more files
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
