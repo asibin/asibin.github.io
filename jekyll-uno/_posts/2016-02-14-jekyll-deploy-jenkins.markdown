@@ -54,4 +54,4 @@ bundle exec jekyll build
 rsync -av --delete ../_site/* /var/www/website/
 {% endhighlight %}
 
-And that's it.
+And that's it. 
