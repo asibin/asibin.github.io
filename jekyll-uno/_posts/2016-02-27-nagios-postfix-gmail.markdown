@@ -7,8 +7,6 @@ tags: [nagios, postfix, gmail, relay, notification, tutorial, install, howto, ub
 ---
 
 This is just a part of configuration listing some of the steps that i thought needed writing down. 
-As always this is just an installation diary.
-
 
 ## Postfix setup
 
