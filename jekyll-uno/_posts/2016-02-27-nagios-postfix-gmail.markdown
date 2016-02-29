@@ -53,7 +53,7 @@ And add the following line:
 [smtp.gmail.com]:587    USERNAME@gmail.com:PASSWORD
 {% endhighlight %}
 
-If you are using google apps change @gmail to @<your_domain>.
+If you are using google apps change @gmail to @your_domain.tld.
 
 Once you have entered your username / password run `postmap` to create postfix lookup table:
 
