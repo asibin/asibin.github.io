@@ -15,11 +15,11 @@ author:
   instagram: nibis
 
 # Build settings
-destination: ../_site
+destination: _site
 paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 kramdown:
   # use Github Flavored Markdown
@@ -28,4 +28,4 @@ kramdown:
   hard_wrap: false
 
 #should exclude some more files
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
