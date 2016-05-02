@@ -35,7 +35,7 @@ and add this to the end:
 {% highlight tcsh %}
 relayhost = [smtp.gmail.com]:587
 smtp_sasl_auth_enable = yes
-smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
+smtp_sasl_password_maps = hash:/etc/postfix/sasl/sasl_passwd
 smtp_sasl_security_options = noanonymous
 smtp_tls_CAfile = /etc/postfix/cacert.pem
 smtp_use_tls = yes
@@ -44,13 +44,13 @@ smtp_use_tls = yes
 Now we need to define username and password for gmail, edit this file:
 
 {% highlight tcsh %}
-sudo nano /etc/postfix/sasl_passwd
+sudo nano /etc/postfix/sasl/sasl_passwd
 {% endhighlight %}
 
 And add the following line:
 
 {% highlight tcsh %}
-[smtp.gmail.com]:587    USERNAME@gmail.com:PASSWORD
+smtp.gmail.com    USERNAME@gmail.com:PASSWORD
 {% endhighlight %}
 
 If you are using google apps change @gmail to @your_domain.tld.
