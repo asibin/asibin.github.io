@@ -29,3 +29,5 @@ kramdown:
 
 #should exclude some more files
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
+
+gems: [jekyll-paginate]
