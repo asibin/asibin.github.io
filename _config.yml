@@ -1,7 +1,7 @@
 # Site settings
 title: Sibin Arsenijević
 description: 'Ramblings of a Python, Ansible ethusiast'
-url: 'http://www.sib.in.rs/'
+url: 'http://www.sib.in.rs'
 baseurl: '/'
 google_analytics: 'UA-72514824-1'
 

@@ -8,6 +8,8 @@ tags: [beograd, bg, red, voznje, public, transport, autobus, bus, tramvaj, tram,
 **TL;DR** I created a Telegram bot to show buses and trains schedule for Belgrade. It is not perfect in any
 way but it gets the job done. Code is open source.
 
+![public transportation](/assets/publictransportation.jpg)
+
 ## Background
 After company that i work for moved to new offices in [Science Technology Park](http://www.ntpark.rs/) (STP)
 daily commute to and from the place became a bit of a problem for me. Only bus that goes to STP leaves every
@@ -42,6 +44,8 @@ Now i can type `/bus 53` and get Bus line 53 schedule.
 
 Or you can search for `/train pancevacki` to get the schedule for BG trains starting on `Pancevacki most`
 station.
+
+![bus 53](/assets/telegrambot1.PNG)![minibus E2](/assets/telegrambot2.PNG)![nightbus 37N and train](/assets/telegrambot3.PNG)
 
 For those of you that just want to use it or try it just click on the bot link above, and for those of you
 that would like to maybe host this themselves you can easily do so by cloning 
